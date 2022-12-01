@@ -3,7 +3,7 @@ import React, { FC,useState } from 'react'
 import { Box,Stack,Button, FormControl } from '@mui/material'
 import { TextField } from "formik-mui";
 import { Formik, Form, Field } from 'formik'
-import { LollySchema } from './Schemas'
+import { LollySchema } from './Schema'
 import { LollyFormProps,LollyFlavour,FormData,LollyData } from './interfaces'
 import Lolly from './Lolly'
 
